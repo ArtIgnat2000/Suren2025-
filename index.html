@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Днем Рождения, Сурен!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .message {
+            font-size: 1.2em;
+            margin: 30px 0;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 40px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 С Днем Рождения, Сурен! 🎉</h1>
+
+        <div class="message">
+            <p>Дорогой Сурен!</p>
+            <p>От всей души поздравляем тебя с этим замечательным праздником — Днем Рождения! Пусть этот день будет наполнен радостью, улыбками и теплыми словами от близких людей. Желаем тебе крепкого здоровья, неиссякаемой энергии, исполнения самых заветных желаний и больших успехов во всех начинаниях!</p>
+            <p>Пусть каждый новый день приносит тебе счастье и вдохновение!</p>
+        </div>
+
+        <div class="gallery">
+            <!-- Замените "photo1.jpg", "photo2.jpg" и т.д. на пути к вашим фотографиям -->
+            <!-- Положите фотографии в ту же папку, где находится index.html -->
+            <img src="photo1.jpg" alt="Фото 1">
+            <img src="photo2.jpg" alt="Фото 2">
+            <img src="photo3.jpg" alt="Фото 3">
+            <img src="photo4.jpg" alt="Фото 4">
+            <img src="photo5.jpg" alt="Фото 5">
+        </div>
+
+        <footer>
+            <p>С любовью и наилучшими пожеланиями!</p>
+        </footer>
+    </div>
+</body>
+</html>
